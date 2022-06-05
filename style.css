@@ -1,0 +1,321 @@
+*{
+   padding:0;
+   margin:0;
+   font-family: system-ui; 
+   
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    background: orange;
+    background:linear-gradient( orange, rgb(255, 0, 0),) ;
+
+}
+body::-webkit-scrollbar-thumb{
+    width: 10px;
+    background:rgb(44, 44, 44);
+    border-radius: 4px;
+}
+:root{
+    --black-text: color:rgb(41, 41, 41);
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h3{
+    margin:10px auto;
+    background: orange;
+    background:linear-gradient(90deg , orange, rgb(255, 0, 0),) ;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    font-size: 2em;
+}
+.box{
+    max-width: 1400px;
+    margin:auto;
+}
+section{
+    margin-top:200px;
+}
+.header{
+   width: 100%;
+   height: 50px; 
+   box-shadow: 0 1px 4px rgb(0 0 0 / 10%), 0 2px 30px rgb(0 0 0 / 20%);
+   padding-top:20px;
+   text-align: left;
+   position:sticky;
+    top:0;
+    background: white;
+    z-index: 99;
+}
+.navbar a{
+    text-decoration: none;
+    color:var(--black-text);
+    padding:20px 10px;
+}
+.navbar{
+    padding:0px 40px;
+}
+
+
+.title{
+    margin-top: 50px;
+}
+.text{
+    padding:10px;
+    text-align: center;
+}
+/*display:flex;
+    image-rendering: -webkit-optimize-contrast;
+    width: 100%;
+    float: left;*/
+.text h1{
+    text-align: center;
+    font-size: 3em;
+    background: orange;
+    background:linear-gradient(90deg , orange, rgb(255, 0, 0)) ;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+}
+.color{
+    color:orange;
+}
+.sagitario img{
+    width: 0px;
+    height: 0px;
+}
+
+.sec2 .text-box{
+    padding:10px 10px;
+    color:var(--black-text);
+    width: 50%;
+    min-width: 300px;
+}
+.text-box{
+    padding: 10px 10px;
+}
+.sec-2 h1{
+    background: orange;
+    background:linear-gradient(90deg , orange, rgb(255, 0, 0), red, red) ;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    margin:10px 10px;
+    text-align: left;
+    font-size: 1.8em;
+    
+}
+
+h1::selection{
+    -webkit-text-fill-color:white;
+    background-color: orange;
+    
+}
+h3::selection{
+    color:white;
+    -webkit-text-fill-color:white;
+    background-color: orange;
+    
+}
+.sec3{
+    width: 50%;
+    margin: auto;
+    padding:20px 0px;
+    justify-content: center;
+}
+.sec-3 h3{
+    padding:0px 20px;
+    text-align: center;
+    width: 90%;
+}
+
+.galaxia{
+    width: 60%;
+    margin: auto;
+    min-width: 320px;
+    height: 75vh;
+    background-image:url("agujero-supermasivo.jpg");
+    background-repeat: no-repeat;
+    background-position:80%;
+    background-size: cover;
+    text-align: center;
+    image-rendering: -webkit-optimize-contrast;
+}
+.btn{
+    margin: auto;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    padding:15px 30px;
+    border:2px solid black;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.btn:hover{
+    transition:0.5s;
+    filter: blur(50%);
+    border:2px solid orange;
+    box-shadow: 2px 2px 2px 2px orange;
+    transform:translateY(-10px);
+}
+.pause{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn span{
+    width: 100%;
+    text-align: center;
+}
+.contenido-sec4{
+    margin: auto;
+    text-align: center;
+
+}
+.hole{
+    display: inline-block; 
+    padding:10px 15px;
+    border-radius: 1px;
+    max-width: 300px;
+}
+.hole img{
+    width: 300px;
+    border-radius: 4px;
+    cursor: zoom-in;
+}
+
+.open{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0,0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.open img{
+    width:90%;
+    max-width: 600px;
+}
+
+.sec4 .text-box{
+   width: 80%; 
+   text-align:justify;
+   margin: auto;
+}
+.sec-5 h3{
+    text-align: center;
+    
+}
+.sec5 p{
+    max-width: 900px;
+    text-align: var(--black-text);
+    margin: auto;
+    padding:10px 10px;
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+
+    color:whitesmoke;
+    padding-top:50px;
+    height: 400px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(83, 83, 82, 0.5),
+        rgba(80, 80, 80, 0.5)
+    ) 
+    ,url("SagitarioA.png");
+    background-repeat: no-repeat;
+    background-position:90%;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer-img{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+.footer-img img{
+    height: 100%;
+}
+@media (max-width:700px){
+    p{
+        text-align: center;
+    }
+    .sec4 .text-box{
+        width: 90%; 
+     }
+    .sagitario img{
+        width: 100%;
+        height: auto;
+    }
+    .title{
+        margin-top: 0px;
+    }
+    .sec2 .text-box{
+        width: 100%;
+        min-width: 300px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .header{
+        text-align: center;
+    }
+    .sec2{
+        width: 90%;
+    }
+    .sec-2 h1{
+        text-align: center;
+    }
+    .sec3{
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width:699px){
+    .title .box{
+        display:flex;
+    }
+    .text h1{
+        text-align: center;
+        font-size: 3em;
+        padding:20px 0px;
+    }
+    
+
+    .text{
+        width: 50%;
+        max-width: 450px;
+        text-align:center;
+        
+    }   
+
+    .sagitario{
+        margin-left: 50px;
+        margin-right: 50px;
+        background-image:url("SagitarioA.png");
+        image-rendering: -webkit-optimize-contrast;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        height: 40vh;
+        width: 40vw;
+
+    }
+}
