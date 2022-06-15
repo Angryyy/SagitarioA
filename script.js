@@ -18,6 +18,7 @@ btn.addEventListener("click",function(){
     pause.innerHTML = `<h1>⏸</h1>`;
 });
 pause.addEventListener("click",function(){
+    pause.innerHTML = `<h1></h1>`;
     audio.pause();
 })
 AOS.init();
